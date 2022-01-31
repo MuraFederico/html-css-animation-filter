@@ -46,3 +46,11 @@
     transition: all 3s;
     filter: sepia(70%);
 }
+
+
+
+.ex-8-img:hover{
+    transition: all 3s;
+    filter: sepia(70%) saturate(70%);
+    border-radius: 18px;
+}
