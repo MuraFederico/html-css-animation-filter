@@ -1,3 +1,4 @@
+
 .ex-1-square:hover{
     transition: all 3s;
     background-color: red;
@@ -19,4 +20,18 @@
 .ex-4-square:hover{
     transition: all 3s;
     background-color: inherit;
+}
+
+
+.ex-5-square:hover{
+    transition: all 3s;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.ex-5-square:active{
+    transition: all 3s;
+    width: 40px;
+    height: 40px;
 }
