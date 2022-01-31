@@ -35,3 +35,8 @@
     width: 40px;
     height: 40px;
 }
+
+
+.ex-6-img:hover{
+    filter: grayscale();
+}
