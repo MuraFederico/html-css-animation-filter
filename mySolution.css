@@ -40,3 +40,9 @@
 .ex-6-img:hover{
     filter: grayscale();
 }
+
+
+.ex-7-img:hover{
+    transition: all 3s;
+    filter: sepia(70%);
+}
