@@ -61,3 +61,24 @@
     border-radius: 18px;
     transform: scale(1.5);
 }
+
+
+
+.ex-10-icon{
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+}
+
+
+@keyframes rotate {
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
